@@ -17,8 +17,7 @@ class Song extends Media {
 
 void main() {
   Media media = Media();
-  media.play(); // Output: Playing media...
+  media.play(); 
   Song song = Song("Pritom Hasan");
-  // Call play method of Song
-  song.play(); // Output: Playing song by Ed Sheeran...
+  song.play(); 
 }
